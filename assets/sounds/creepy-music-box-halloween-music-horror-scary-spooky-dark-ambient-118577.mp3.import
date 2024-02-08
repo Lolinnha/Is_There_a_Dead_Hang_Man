@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/creepy-music-box-halloween-music-horror-scary-spooky-dark-ambient-118577.mp3-419d4d573f534dd996b36abf4518f037.mp3str"
+
+[deps]
+
+source_file="res://assets/sounds/creepy-music-box-halloween-music-horror-scary-spooky-dark-ambient-118577.mp3"
+dest_files=[ "res://.import/creepy-music-box-halloween-music-horror-scary-spooky-dark-ambient-118577.mp3-419d4d573f534dd996b36abf4518f037.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
