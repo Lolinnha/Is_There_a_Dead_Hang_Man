@@ -2,12 +2,16 @@
 
 Is There a Dead Hang Man é um jogo da forca com estilo de terror. A jogabilidade é bem voltada à infância, com a possibilidade de 5 erros para completar a palavra e deve ser escolhida uma letra (vogal ou consoante) a cada turno. 
 
-# Propósito de Cada Commit 
+# Propósito de Cada Commit Principal
 
-* feat: added menu screen, focado em adicionar o código e a tela de menu com assets de texto, botões e background 
-* feat: added hang man screen, focado em adicionar botões com vogais e consoantes, background e a lista de palavras que serão usadas
-* feat: Added Hangman code, focado em adicionar funções que obtêm as palavras, transformam-nas em letras e obtêm o comprimento de cada uma delas
-* feat: Added Hangman code, focado em ocultar as letras das palavras que serão chamadas randomicamente
-* bug: created conflict, focado em modificar a posição dos parâmetros e atributos booleanos, porém não consegui realizar o conflito nessa branch
-* feat: path for Hang Man Screen, focado em adicionar o caminho para a próxima cena quando clicar no botão de iniciar o jogo
-* Merge pull request #4 from Lolinnha/feature/menu-screen, merge mais atual (ao total foram 4 merges)
+* "feat: added menu screen" focado em adicionar o código e a tela de menu com assets de texto, botões e background 
+* "feat: added hang man screen" focado em adicionar botões com vogais e consoantes, background e a lista de palavras que serão usadas
+* "feat: Added Hangman code" focado em adicionar funções que obtêm as palavras, transformam-nas em letras e obtêm o comprimento de cada uma delas
+* "feat: Added Hangman code" focado em ocultar as letras das palavras que serão chamadas randomicamente
+* "bug: created conflict" focado em modificar a posição dos parâmetros e atributos booleanos, porém não consegui realizar o conflito nessa branch
+* "feat: path for Hang Man Screen" focado em adicionar o caminho para a próxima cena quando clicar no botão de iniciar o jogo
+* "Merge pull request #5 from Lolinnha/bug/conflict" merge mais atual (ao total foram 5 merges)
+* "feat: added boolean variable" focado em começar o conflito inicial adicionando a variável booleana que será modificada
+* "feat: false sound boolean variable" focado em realizar o conflito modificando a variável em outra branch
+* "Merge branch 'main' into bug/conflict" conflito realizado e resolvido
+* "Update README.md" focado em atualizar o Read explicando a descrição da aplicação e trazendo o propósito de cada commit principal 
