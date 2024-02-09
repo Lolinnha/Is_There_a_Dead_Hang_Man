@@ -53,6 +53,16 @@ func add_label(offset, current_position, value, default_value):
 		label.text = letter if not default_value else default_value
 		label.rect_position = current_position
 		current_position += offset
+		
+func hide_labels(labels):
+	for label in labels:
+		label.visible = true
+		
+		
+func show_label(labels, label_value):
+	for label in labels:
+		if label.text == label_value:
+			label.visible = true
 	
 func set_word(word):
 	var position_offset = Vector2(40, 0) 
