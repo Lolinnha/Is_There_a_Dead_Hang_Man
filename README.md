@@ -4,8 +4,8 @@ Is There a Dead Hang Man é um jogo da forca com estilo de terror. A jogabilidad
 
 # Propósito de Cada Commit 
 
-feat: added menu screen, focado em adicionar o código e a tela de menu com assets de texto, botões e background 
-feat: added hang man screen, focado em adicionar botões com vogais e consoantes, background e a lista de palavras que serão usadas
-feat: Added Hangman code, focado em adicionar funções que obtêm as palavras, transformam-nas em letras e obtêm o comprimento de cada uma delas
-feat: Added Hangman code, focado em ocultar as letras das palavras que serão chamadas randomicamente
-bug: created conflict, focado em modificar a posição dos parâmetros e atributos booleanos, porém não consegui realizar o conflito nessa branch
+1.feat: added menu screen, focado em adicionar o código e a tela de menu com assets de texto, botões e background 
+2.feat: added hang man screen, focado em adicionar botões com vogais e consoantes, background e a lista de palavras que serão usadas
+3.feat: Added Hangman code, focado em adicionar funções que obtêm as palavras, transformam-nas em letras e obtêm o comprimento de cada uma delas
+4.feat: Added Hangman code, focado em ocultar as letras das palavras que serão chamadas randomicamente
+5.bug: created conflict, focado em modificar a posição dos parâmetros e atributos booleanos, porém não consegui realizar o conflito nessa branch
