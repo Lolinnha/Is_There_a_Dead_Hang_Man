@@ -85,8 +85,9 @@ func _ready():
 
 func validate_input():
 	#while (choice < 1 || choice > 4):
+		#FOO : BAR
 		pass
-
-
+		
 func _on_Button_pressed():
 	pass # Replace with function body.
+	
