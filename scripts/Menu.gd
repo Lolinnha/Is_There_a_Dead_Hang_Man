@@ -4,7 +4,7 @@ var sound = true
 
 #When button is pressed, it changes to Main Scene
 func _on_Button_pressed():
-	pass #get_tree().change_scene("")
+	get_tree().change_scene("res://scripts/HangMan.gd")
 	
 	
 #When button is pressed, it ends the application 
