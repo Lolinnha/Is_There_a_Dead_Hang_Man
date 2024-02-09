@@ -247,3 +247,11 @@ margin_bottom = 561.0
 rect_pivot_offset = Vector2( -820, 199 )
 custom_fonts/font = SubResource( 1 )
 text = "z"
+
+[node name="Label" type="Label" parent="."]
+margin_left = 320.0
+margin_top = 522.0
+margin_right = 664.0
+margin_bottom = 608.0
+
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
