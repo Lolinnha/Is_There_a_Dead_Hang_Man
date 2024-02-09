@@ -22,8 +22,15 @@ A seguir, serão demonstrados os commits de maior relevância para a execução 
 
 O conflito foi realizado pela mudança de uma variável booleana "sound" para true e false em diferentes branchs. A seguir, terão imagens para comprovar a realização do conflito e sua resolução. 
 
+Figura 1 - Comprovação da geração do conflito no GitHub
 ![Figura 1 - Comprovação da geração do conflito no GitHub](assets/components/conflict_1.jpeg)
 
+<br>
+
+Figura 2 - Demonstração do conflito envolvendo a variável booleana no Godot
 ![Figura 2 - Demonstração do conflito envolvendo a variável booleana no Godot](assets/components/conflict_2.jpeg)
 
+<br>
+
+Figura 3 - Resolução do conflito ao escolher o valor "true" para atribuição na variável booleana
 ![Figura 3 - Resolução do conflito ao escolher o valor "true" para atribuição na variável booleana](assets/components/conflict_3.jpeg)
