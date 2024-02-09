@@ -1,5 +1,7 @@
 extends Node2D
 
+var sound = false
+
 #When button is pressed, it changes to Main Scene
 func _on_Button_pressed():
 	get_tree().change_scene("res://scripts/HangMan.gd")
