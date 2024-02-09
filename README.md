@@ -9,3 +9,4 @@ Is There a Dead Hang Man é um jogo da forca com estilo de terror. A jogabilidad
 * feat: Added Hangman code, focado em adicionar funções que obtêm as palavras, transformam-nas em letras e obtêm o comprimento de cada uma delas
 * feat: Added Hangman code, focado em ocultar as letras das palavras que serão chamadas randomicamente
 * bug: created conflict, focado em modificar a posição dos parâmetros e atributos booleanos, porém não consegui realizar o conflito nessa branch
+* feat: path for Hang Man Screen, focado em adicionar o caminho para a próxima cena quando clicar no botão de iniciar o jogo
