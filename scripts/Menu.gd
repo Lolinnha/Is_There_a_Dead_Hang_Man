@@ -1,6 +1,5 @@
 extends Node2D
 
-
 #When button is pressed, it changes to Main Scene
 func _on_Button_pressed():
 	pass #get_tree().change_scene("")
