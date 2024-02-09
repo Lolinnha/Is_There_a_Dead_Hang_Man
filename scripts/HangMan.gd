@@ -30,7 +30,7 @@ var words = [
 	'Phantasmagoric', 
 	'Eldritch', 
 	'Abomination',
-	'Sanguine'
+	'HELP'
 	] 
 	
 func get_characters(word): 
@@ -45,7 +45,7 @@ func get_size(letters):
 	return size 
 	
 	
-func add_label(offset, current_position, value, default_value):
+func add_label( value, current_position, default_value, offset):
 	for letter in value:
 		var label = Label.new()
 		add_child(label)
@@ -56,21 +56,21 @@ func add_label(offset, current_position, value, default_value):
 		
 func hide_labels(labels):
 	for label in labels:
-		label.visible = true
+		label.visible = false
 		
 		
-func show_label(labels, label_value):
+func show_label(label_value, labels ):
 	for label in labels:
 		if label.text == label_value:
-			label.visible = true
+			label.visible = false
 	
 func set_word(word):
 	var position_offset = Vector2(40, 0) 
 	var current_position = Vector2(320, 522)
 	var current_position_line = Vector2(320, 532)
 
-	add_label(position_offset, current_position, word, false)
-	add_label(position_offset, current_position_line, word, '_')
+	add_label(position_offset, current_position, word, true)
+	add_label(position_offset, current_position_line, word, '*')
 	
 func _ready():
 	var live = 5
@@ -82,9 +82,6 @@ func _ready():
 		var letters = get_characters(w)
 		var size = get_size(w)
 		set_word(w)
-		
-func clear_game():
-	pass
 
 func validate_input():
 	#while (choice < 1 || choice > 4):
