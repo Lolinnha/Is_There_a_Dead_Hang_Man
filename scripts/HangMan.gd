@@ -85,7 +85,7 @@ func _ready():
 
 func validate_input():
 	#while (choice < 1 || choice > 4):
-		#FOO : BAR
+		#FOO : TI
 		pass
 		
 func _on_Button_pressed():
